@@ -1,3 +1,10 @@
+novena-bluetooth-reset (1.0-r2) unstable; urgency=medium
+
+  * debian: Fix build on Buster
+  * debian: Set myself as maintainer
+
+ -- Jookia <contact@jookia.org>  Tue, 31 Mar 2020 20:47:52 +1100
+
 novena-bluetooth-reset (1.0-r1) unstable; urgency=low
 
   * Initial release
