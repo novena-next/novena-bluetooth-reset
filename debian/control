@@ -10,7 +10,7 @@ Vcs-Browser: http://github.com/xobs/novena-bluetooth-reset
 
 Package: novena-bluetooth-reset
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libbluetooth3
 Description: Reset Bluetooth when Config button is pressed
  Bluetooth is buggy on Novena.  It can go away after several hours idle.
  Monitor the front User button, and bring HCI down and up and it is pressed.
